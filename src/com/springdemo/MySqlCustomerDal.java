@@ -1,6 +1,9 @@
-package springIntro;
+package com.springdemo;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 public class MySqlCustomerDal implements IcustomerDal {
+    @Value("${database.connectingString}")
     String connectingString;
 
     public String getConnectingString() {

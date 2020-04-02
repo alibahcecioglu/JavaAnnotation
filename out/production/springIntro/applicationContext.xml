@@ -7,14 +7,7 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:property-placeholder location="classpath:values.properties"/>
 
-    <bean id="database" class="springIntro.OracleCustomerDal">
-    <property name="connectingString" value="${database.connectionString}"></property>
-   </bean>
-    <bean id="service" class="springIntro.CustomerManager">
-        <property name="icustomerDal" ref="database"></property>
-    </bean>
 </beans>
 
 

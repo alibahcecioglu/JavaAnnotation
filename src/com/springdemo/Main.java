@@ -1,14 +1,16 @@
-package springIntro;
+package com.springdemo;
 
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import java.lang.annotation.Annotation;
 
 public class Main {
     public static void main(String[] args ){
 
-        ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("ApplicationContext.xml");
+        AnnotationConfigApplicationContext context=new AnnotationConfigApplicationContext(IocConfig.class);
 
-        ICustomerService customerService =context.getBean("service", ICustomerService.class);
-        customerService.add();
+         ICustomerService customerService =context.getBean("service", ICustomerService.class);
+          customerService.add();
     }
 }
