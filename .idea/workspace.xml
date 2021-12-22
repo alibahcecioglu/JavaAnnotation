@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b807979-6dbb-4e0a-99ed-d33ebfc1b7ef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/springdemo/IocConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/META-INF/springIntro.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/springIntro/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/springIntro/CustomerManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/springIntro/ICustomerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/springIntro/IcustomerDal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/springIntro/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/springIntro/MySqlCustomerDal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/springIntro/springIntro/OracleCustomerDal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/CustomerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/CustomerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/IcustomerDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/IcustomerDal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/MySqlCustomerDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/MySqlCustomerDal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/springdemo/OracleCustomerDal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/springdemo/OracleCustomerDal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/springdemo/gitTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,8 +25,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -61,18 +51,6 @@
       <recent name="C:\Users\Vitelco\Desktop\Java\Project1\src" />
       <recent name="C:\Users\Vitelco\Desktop\Java\Project1\src\libs" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -108,6 +86,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -118,21 +97,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585689482925</updated>
+      <workItem from="1640173125382" duration="23000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
